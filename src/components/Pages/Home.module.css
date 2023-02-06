@@ -1,0 +1,14 @@
+section {
+  background-image: linear-gradient(
+    to bottom,
+    #233041,
+    #1d5262,
+    #247573,
+    #579774,
+    #9eb36f
+  );
+  height: 100vh;
+}
+.card {
+  border: none;
+}
