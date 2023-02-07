@@ -1,10 +1,9 @@
-import Header from "./components/UI/Header";
+import Header from "./components/Global_UI_Comp/Header";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/Pages/Home";
-import About from "./components/Pages/About";
-import Portfolio from "./components/Pages/Portfolio";
-import Contact from "./components/Pages/Contact";
-
+import Home from "./components/Pages/Home/Home";
+import About from "./components/Pages/About/About";
+import Portfolio from "./components/Pages/Portfolio/Portfolio";
+import Contact from "./components/Pages/Contact/Contact";
 
 function App() {
   return (

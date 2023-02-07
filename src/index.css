@@ -18,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 code {
@@ -44,6 +44,10 @@ code {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Custom classes */
 .navbar,
 .navbar-collapse {
@@ -52,7 +56,7 @@ code {
 }
 
 .navbar a {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--primary-grey-color);
   text-transform: uppercase;
 }

@@ -1,0 +1,55 @@
+.section {
+  background-image: linear-gradient(
+    to bottom,
+    #233041,
+    #1d5262,
+    #247573,
+    #579774,
+    #9eb36f
+  );
+  height: 100vh;
+}
+
+.card {
+  font-family: Raleway;
+  color: var(--primary-grey-color);
+  margin-top: 3em;
+  background-color: transparent;
+  border: none;
+}
+
+.card p {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 400;
+  line-height: 4rem;
+}
+
+.cardImg {
+  height: 12rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.myName {
+  color: #b9e376;
+}
+
+.btn {
+  display: flex;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  background-color: transparent;
+  color: #eefcfb;
+  border: 1px solid #eefcfb;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+}
+
+.btn:hover {
+  background-color: #53af81;
+  border-color: #53af81;
+  outline: none;
+}
+
+
