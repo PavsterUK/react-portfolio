@@ -1,0 +1,12 @@
+.name {
+  margin-top: 1em;
+  font-family: Raleway;
+  font-weight: 800;
+}
+
+.bottomBorder {
+  width: 5rem;
+  border: 2px solid black;
+  margin-bottom: 5rem;
+  background-color: black;
+}

@@ -1,0 +1,38 @@
+.bulletWrapper {
+}
+
+.circle {
+}
+
+.bulletWrapper {
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.bulletWrapper p {
+  font-size: clamp(0.9rem, 5vw, 1.7rem);
+  width: 80%;
+  color: #616161;
+}
+
+.circle {
+  padding: 2rem;
+  border: 3px solid #247573;
+  background-color: #247573;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+}
+
+.circle img {
+  height: 100%;
+  filter: invert(100%) sepia(0%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
+.bulletTitle {
+  font-size: clamp(2rem, 7vw, 2.5rem);
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #616161;
+}
