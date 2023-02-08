@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c544d53d.css",
-    "main.js": "/react-portfolio/static/js/main.c3121e46.js",
+    "main.css": "/react-portfolio/static/css/main.e3b27b2c.css",
+    "main.js": "/react-portfolio/static/js/main.f5bfe0f0.js",
     "static/media/bulb-icon.svg": "/react-portfolio/static/media/bulb-icon.ca15a1c288f0104753ce0e335e45abbd.svg",
+    "static/media/speedometer-icon.svg": "/react-portfolio/static/media/speedometer-icon.ce36c626283b4f18dcbfd36544b5b722.svg",
+    "static/media/rocket-launch-line-icon.svg": "/react-portfolio/static/media/rocket-launch-line-icon.310aeb173df2eca88be26e634dbb9d66.svg",
+    "static/media/desktop-mobile-icon.svg": "/react-portfolio/static/media/desktop-mobile-icon.cda1572fd06ae5edaad3c68a037953cd.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.c544d53d.css.map": "/react-portfolio/static/css/main.c544d53d.css.map",
-    "main.c3121e46.js.map": "/react-portfolio/static/js/main.c3121e46.js.map"
+    "main.e3b27b2c.css.map": "/react-portfolio/static/css/main.e3b27b2c.css.map",
+    "main.f5bfe0f0.js.map": "/react-portfolio/static/js/main.f5bfe0f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c544d53d.css",
-    "static/js/main.c3121e46.js"
+    "static/css/main.e3b27b2c.css",
+    "static/js/main.f5bfe0f0.js"
   ]
 }
