@@ -1,0 +1,9 @@
+section {
+  background-color: var(--secondary-white-color);
+}
+
+.projectsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5vw, 30vw));
+  gap: 0.4em;
+}

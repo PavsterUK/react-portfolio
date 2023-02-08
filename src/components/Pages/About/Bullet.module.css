@@ -1,8 +1,3 @@
-.bulletWrapper {
-}
-
-.circle {
-}
 
 .bulletWrapper {
   width: 100%;
@@ -12,13 +7,13 @@
 .bulletWrapper p {
   font-size: clamp(0.9rem, 5vw, 1.7rem);
   width: 80%;
-  color: #616161;
+  color: var(--primary-grey-color);
 }
 
 .circle {
   padding: 2rem;
-  border: 3px solid #247573;
-  background-color: #247573;
+  border: 3px solid var(--primary-green-color);
+  background-color: var(--primary-green-color);
   border-radius: 50%;
   height: 8rem;
   width: 8rem;
@@ -34,5 +29,5 @@
   font-size: clamp(2rem, 7vw, 2.5rem);
   margin-top: 1rem;
   font-weight: bold;
-  color: #616161;
+  color: var(--primary-grey-color);
 }
