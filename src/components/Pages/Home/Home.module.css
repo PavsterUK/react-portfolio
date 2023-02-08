@@ -12,7 +12,7 @@
 
 .card {
   font-family: Raleway;
-  color: var(--primary-grey-color);
+  color: var(--primary-white-color);
   margin-top: 3em;
   background-color: transparent;
   border: none;
@@ -38,8 +38,8 @@
   display: flex;
   font-size: clamp(1rem, 5vw, 1.5rem);
   background-color: transparent;
-  color: #eefcfb;
-  border: 1px solid #eefcfb;
+  color: var(--primary-white-color);
+  border: 1px solid var(--primary-white-color);
   border-radius: 10px;
   text-decoration: none;
   transition: 0.3s ease-in;
@@ -51,5 +51,3 @@
   border-color: #53af81;
   outline: none;
 }
-
-

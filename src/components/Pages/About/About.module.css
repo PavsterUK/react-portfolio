@@ -1,0 +1,19 @@
+section {
+  padding: 1em;
+}
+
+.bulletsWrapper,
+.skillsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: baseline;
+  gap: 0.4em;
+}
+
+.skillsSectionName {
+  font-size: clamp(2rem, 7vw, 2.5rem);
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--primary-grey-color);
+  text-transform: uppercase;
+}

@@ -1,6 +1,8 @@
 :root {
   --primary-green-color: #247573;
-  --primary-grey-color: #eefcfb;
+  --primary-white-color: #eefcfb;
+  --primary-grey-color: #616161;
+  --secondary-white-color: #f5f5f5;
 }
 
 /* Resets */
@@ -36,6 +38,11 @@ code {
   flex-direction: column;
 }
 
+.flex-centrXY {
+  align-items: center;
+  justify-content: center;
+}
+
 .flex-justf-centr {
   justify-content: center;
 }
@@ -58,6 +65,6 @@ code {
 
 .navbar a {
   font-size: 1.1rem;
-  color: var(--primary-grey-color);
+  color: var(--primary-white-color);
   text-transform: uppercase;
 }
