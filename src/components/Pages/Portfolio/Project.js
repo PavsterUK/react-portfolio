@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Project.module.css";
 
-const Project = () => {
+
+const Project = ({ project, imageUri }) => {
   return (
-    <div className={styles.projectWrapper}>
-      <img src="./images/first website.png" alt="..." />
+    <div className={`${styles.projectWrapper} column flex-centrXY text-center`}>
+      <img src={imageUri} alt="..." />
       <div>
         <h5 className="card-title">Simple Static Website</h5>
         <p className="card-text">

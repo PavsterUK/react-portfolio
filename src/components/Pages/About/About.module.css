@@ -17,3 +17,11 @@ section {
   color: var(--primary-grey-color);
   text-transform: uppercase;
 }
+
+/* No less than 500px, no greater than 852px */
+@media (min-width:500px) and (max-width:852px)  {
+  .bulletsWrapper,
+  .skillsWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
