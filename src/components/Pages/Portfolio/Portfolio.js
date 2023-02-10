@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div className={`${styles.projectsWrapper} container`}>
         {projects.map((project) => {
           return (
-            <Project project={project} imageUri={project.image} />
+            <Project project={project} image={project.image} />
           );
         })}
       </div>

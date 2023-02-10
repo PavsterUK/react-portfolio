@@ -1,4 +1,8 @@
 import pieAndLatteImage from "../../../img/pieandlattes.png";
+import theSnakeGameImage from "../../../img/snake.png";
+import cityWorndererImage from "../../../img/citywonderer.png";
+import javaScriptQuizPic from "../../../img/javascriptquiz.png";
+import passwordGeneratorImage from "../../../img/passwordGenerator.png";
 
 export const projects = [
   {
@@ -10,7 +14,7 @@ export const projects = [
     page: "https://www.pieandlattespilates.co.uk/",
   },
   {
-    image: "../../../img/snake.png",
+    image: theSnakeGameImage,
     title: "The Snake Game",
     github: "https://github.com/PavsterUK/snake-js",
     tools: ["HTML", "CSS", "JavaScript"],
@@ -18,7 +22,7 @@ export const projects = [
     page: "https://pavsteruk.github.io/snake-js/",
   },
   {
-    image: "../../../img/citywonderer.png",
+    image: cityWorndererImage,
     title: "The City Wonderer",
     github: "https://github.com/onderguler35/city-wonderer",
     tools: ["HTML", "CSS", "JavaScript", "jQuery", "API's"],
@@ -26,7 +30,7 @@ export const projects = [
     page: "https://onderguler35.github.io/city-wonderer/",
   },
   {
-    image: "../../../img/javascriptquiz.png",
+    image: javaScriptQuizPic,
     title: "JavaScript Quiz",
     github: "https://github.com/PavsterUK/codiing-quiz-js",
     tools: ["HTML", "CSS", "JavaScript"],
@@ -34,7 +38,7 @@ export const projects = [
     page: "https://pavsteruk.github.io/codiing-quiz-js/",
   },
   {
-    image: "../../../img/passwordGenerator.png",
+    image: passwordGeneratorImage,
     title: "Password Generator",
     github: "https://github.com/PavsterUK/module-05-challenge",
     tools: ["HTML", "CSS", "JavaScript"],
@@ -42,7 +46,7 @@ export const projects = [
     page: "https://pavsteruk.github.io/module-05-challenge/",
   },
   {
-    image: "../../../img/passwordGenerator.png",
+    image: passwordGeneratorImage,
     title: "Password Generator",
     github: "https://github.com/PavsterUK/module-05-challenge",
     tools: ["HTML", "CSS", "JavaScript"],

@@ -1,8 +1,44 @@
 .projectWrapper {
+  position: relative;
   aspect-ratio: 1 / 1;
   width: 100%;
   height: 100%;
   padding: 0;
   overflow: hidden;
-  border: 1px solid red;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.projectWrapper img {
+  transition: all 0.7s ease-out;
+  scale: 0.3;
+}
+
+.projectWrapper:hover > img {
+  opacity: 0.05;
+  scale: 0.6;
+}
+
+.projectInfo {
+  position: absolute;
+  visibility: hidden;
+}
+
+.projectWrapper:hover .projectInfo {
+  visibility: visible;
+}
+
+.projectWrapper h4 {
+  margin-top: 1em;
+}
+
+.gitHubIcon {
+  height: 8rem;
+}
+
+/* Make .gitHubIcon dissapear instantly when hovering off .projectWrapper */
+.projectWrapper:not(:hover) img.gitHubIcon {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0s, opacity 0.7s linear;
 }
