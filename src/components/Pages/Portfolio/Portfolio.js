@@ -6,13 +6,13 @@ import { projects } from "./ProjectsList";
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className={`${styles.section}`} >
       <SectionName name={"Projects"} />
 
       <div className={`${styles.projectsWrapper} container`}>
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
-            <Project project={project} image={project.image} />
+            <Project key={index} project={project} image={project.image} index={index} />
           );
         })}
       </div>

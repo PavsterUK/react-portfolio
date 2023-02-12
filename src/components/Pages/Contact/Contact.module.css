@@ -1,0 +1,10 @@
+.section h3 {
+  color: var(--primary-grey-color);
+  font-weight: 100;
+}
+
+.contactsWrapper {
+  margin-top: 2em;
+  border: 1px solid red;
+  justify-content: space-between;
+}

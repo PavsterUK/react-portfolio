@@ -53,4 +53,28 @@ export const projects = [
     descr: "Password generator.",
     page: "https://pavsteruk.github.io/module-05-challenge/",
   },
+  {
+    image: theSnakeGameImage,
+    title: "The Snake Game",
+    github: "https://github.com/PavsterUK/snake-js",
+    tools: ["HTML", "CSS", "JavaScript"],
+    descr: "Little hobby project",
+    page: "https://pavsteruk.github.io/snake-js/",
+  },
+  {
+    image: theSnakeGameImage,
+    title: "The Snake Game",
+    github: "https://github.com/PavsterUK/snake-js",
+    tools: ["HTML", "CSS", "JavaScript"],
+    descr: "Little hobby project",
+    page: "https://pavsteruk.github.io/snake-js/",
+  },
+  {
+    image: theSnakeGameImage,
+    title: "The Snake Game",
+    github: "https://github.com/PavsterUK/snake-js",
+    tools: ["HTML", "CSS", "JavaScript"],
+    descr: "Little hobby project",
+    page: "https://pavsteruk.github.io/snake-js/",
+  },
 ];

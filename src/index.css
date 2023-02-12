@@ -77,6 +77,10 @@ code {
   }
 }
 
+section {
+  padding: 3em 1em 1em 1em;
+}
+
 /* Custom classes */
 
 .navbar,
@@ -89,4 +93,9 @@ code {
   font-size: 1.1rem;
   color: var(--primary-white-color);
   text-transform: uppercase;
+}
+.navbar-toggler-icon,
+button.navbar-toggler,
+button.navbar-toggler.collapsed {
+  margin-right: auto;
 }

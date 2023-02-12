@@ -1,0 +1,16 @@
+.contact {
+  max-width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.greyCircle {
+  height: 8rem;
+  width: 8rem;
+  border: 1px solid var(--primary-green-color);
+  border-radius: 50%;
+}
+
+.greyCircle:hover {
+  background-color: var(--primary-green-color);
+}
