@@ -44,9 +44,9 @@ const About = () => {
         />
       </div>
       <h1 className={`${styles.skillsSectionName} text-center`}>Skills</h1>
-      <div className={styles.skillsWrapper}>
-        {skills.map((skill) => {
-          return <Skill skill={skill} />;
+      <div className={`${styles.skillsWrapper} container`}>
+        {skills.map((skill, index) => {
+          return <Skill key={index} skill={skill} />;
         })}
       </div>
     </section>

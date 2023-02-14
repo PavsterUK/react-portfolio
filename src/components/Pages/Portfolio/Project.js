@@ -1,22 +1,34 @@
 import React from "react";
 import styles from "./Project.module.css";
+import githubIcon from "../../../img/github-icon.svg";
+import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
-const Project = () => {
+const Project = ({ project, image, index }) => {
+  const handleClick = () => {
+    window.open(project.page, "_blank");
+  };
+
   return (
-    <div className={styles.projectWrapper}>
-      <img src="./images/first website.png" alt="..." />
-      <div>
-        <h5 className="card-title">Simple Static Website</h5>
-        <p className="card-text">
-          This is a example of a simple website laid out using legacy technology
-          like: floats etc.
-        </p>
-        <a
-          href="https://pavsteruk.github.io/challenge_01/"
-          className="btn btn-primary"
-        >
-          Visit Website
-        </a>
+    <div
+      style={{ animationDelay: `${index / 4}s` }}
+      className={`${styles.projectWrapper} column flex-centrXY text-center`}
+    >
+      <img src={image} alt="..." />
+      <div className={`${styles.projectInfo} column flex-align-centr`}>
+        <h2>{project.title}</h2>
+        <p>{project.descr}</p>
+        <h4>Tech Stack:</h4>[
+        {project.tools.map((tool) => {
+          return ` ${tool}  `;
+        })}
+        ]
+        <Link to={project.github}>
+          <img className={styles.gitHubIcon} src={githubIcon} alt="..." />
+        </Link>
+        <Button className={styles.button} onClick={handleClick}>
+          Have a Look!
+        </Button>
       </div>
     </div>
   );

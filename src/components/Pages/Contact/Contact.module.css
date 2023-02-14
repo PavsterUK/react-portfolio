@@ -1,0 +1,13 @@
+.section {
+  min-height: 100%;
+}
+
+.section h3 {
+  color: var(--primary-grey-color);
+  font-weight: 100;
+}
+
+.contactsWrapper {
+  margin-top: 4em;
+  justify-content: space-between;
+}

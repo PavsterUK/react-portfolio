@@ -11,4 +11,7 @@ export const skills = [
   "SpringBoot",
   "SQL",
   "React",
+  "Linux",
+  "Agile/Scrum",
+  "Debugging",
 ];

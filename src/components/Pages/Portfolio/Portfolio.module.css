@@ -1,9 +1,21 @@
-section {
+.section {
   background-color: var(--secondary-white-color);
+  padding-bottom: 3em;
 }
 
 .projectsWrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(5vw, 30vw));
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.4em;
+}
+
+@media (max-width: 770px) {
+  .projectsWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .projectsWrapper {
+    grid-template-columns: 1fr;
+  }
 }

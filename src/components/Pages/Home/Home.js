@@ -18,7 +18,16 @@ const Home = () => {
             <br />
             I'm a Web Developer.
           </Card.Text>
-          <Button className={`${styles.btn}`}>View my work</Button>
+          <Button
+            onClick={() => {
+              window.open(
+                "https://pavsteruk.github.io/react-portfolio/#/portfolio","_self"
+              );
+            }}
+            className={`${styles.btn}`}
+          >
+            View my work
+          </Button>
         </Card.Body>
       </Card>
     </section>
