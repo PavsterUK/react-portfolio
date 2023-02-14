@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <section className={`${styles.section} column `}>
       <SectionName name={"Contact"} />
-      <h3 class={"text-center"}>Get in touch, let's make it happen!</h3>
+      <h3 className={"text-center"}>Get in touch, let's make it happen!</h3>
       <div className={`${styles.contactsWrapper} container row `}>
         <ContactInfo
           title={"Email"}
