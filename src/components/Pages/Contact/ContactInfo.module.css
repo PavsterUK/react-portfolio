@@ -16,11 +16,15 @@
 }
 
 .greyCircle img {
-  height: 2rem;
+  height: 3rem;
   fill: aqua;
 }
 
 .contact h3 {
   font-weight: 500;
   margin-top: 0.5em;
+}
+
+.contact a {
+  font-size: 1.1rem;
 }

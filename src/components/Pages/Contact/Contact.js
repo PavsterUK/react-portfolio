@@ -6,6 +6,7 @@ import gitHubIcon from "../../../img/github-icon.svg";
 import emailIcon from "../../../img/email-icon.svg";
 import phoneIcon from "../../../img/phone-outline-icon.svg";
 import linkedinIcon from "../../../img/linkedin-line-icon.svg";
+import cvIcon from "../../../img/resume-cv-icon.svg"
 
 const Contact = () => {
   return (
@@ -38,6 +39,12 @@ const Contact = () => {
           linkName={"Go to"}
         />
       </div>
+      <ContactInfo
+        title={"CV"}
+        img={cvIcon}
+        link={"https://drive.google.com/file/d/1Paa9FIvicW36Ya_gyEYiEdUE_V7693dj/view?usp=sharing"}
+        linkName={"Go to"}
+      />
     </section>
   );
 };
