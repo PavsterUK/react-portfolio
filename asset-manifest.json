@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d5df09ac.css",
-    "main.js": "/react-portfolio/static/js/main.f5380ae6.js",
+    "main.css": "/react-portfolio/static/css/main.fe0db506.css",
+    "main.js": "/react-portfolio/static/js/main.8afa9584.js",
     "static/media/pieandlattes.png": "/react-portfolio/static/media/pieandlattes.abb27e3dbedc81822b92.png",
     "static/media/citywonderer.png": "/react-portfolio/static/media/citywonderer.33dc0f0b4cec989a07fd.png",
+    "static/media/portimage.png": "/react-portfolio/static/media/portimage.4d6e62549f498da51733.png",
     "static/media/passwordGenerator.png": "/react-portfolio/static/media/passwordGenerator.0943f2789713f8a11a1d.png",
     "static/media/javascriptquiz.png": "/react-portfolio/static/media/javascriptquiz.4532006ae1618718bc01.png",
     "static/media/snake.png": "/react-portfolio/static/media/snake.39abad226e8c0926e7ee.png",
@@ -17,11 +18,11 @@
     "static/media/linkedin-line-icon.svg": "/react-portfolio/static/media/linkedin-line-icon.699663ee7dc415fe3242e2d71de698cd.svg",
     "static/media/github-icon.svg": "/react-portfolio/static/media/github-icon.b40b1c0378274f892133dea1253e8aa8.svg",
     "static/media/email-icon.svg": "/react-portfolio/static/media/email-icon.34af7fca8a80708a47443da1ed562e9f.svg",
-    "main.d5df09ac.css.map": "/react-portfolio/static/css/main.d5df09ac.css.map",
-    "main.f5380ae6.js.map": "/react-portfolio/static/js/main.f5380ae6.js.map"
+    "main.fe0db506.css.map": "/react-portfolio/static/css/main.fe0db506.css.map",
+    "main.8afa9584.js.map": "/react-portfolio/static/js/main.8afa9584.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5df09ac.css",
-    "static/js/main.f5380ae6.js"
+    "static/css/main.fe0db506.css",
+    "static/js/main.8afa9584.js"
   ]
 }
