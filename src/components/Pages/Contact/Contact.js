@@ -42,7 +42,7 @@ const Contact = () => {
       <ContactInfo
         title={"CV"}
         img={cvIcon}
-        link={"https://drive.google.com/file/d/1Paa9FIvicW36Ya_gyEYiEdUE_V7693dj/view?usp=sharing"}
+        link={"https://drive.google.com/file/d/1-R5myvrORGC1PqLlVLPUbzK9pTcj37l1/view?usp=drive_link"}
         linkName={"Go to"}
       />
     </section>

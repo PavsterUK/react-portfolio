@@ -11,36 +11,28 @@ import Skill from "./Skill";
 
 const About = () => {
   return (
-    <section>
+    <section className={styles.about}>
       <SectionName name={"About"} />
       <div className={styles.bulletsWrapper}>
         <Bullet
           img={BulbPic}
           title={"Intuitive"}
-          description={
-            "I always aim to create minimalistic, elegant and easy to use UI/UX."
-          }
+          description={"I always aim to create minimalistic, elegant and easy to use UI/UX."}
         />
         <Bullet
           img={MobileFriendlyPic}
           title={"Responsive"}
-          description={
-            "Responsive design approach means that my layouts will look perfect on any screen size."
-          }
+          description={"Responsive design approach means that my layouts will look perfect on any screen size."}
         />
         <Bullet
           img={RocketPic}
           title={"Fast"}
-          description={
-            "Smooth and seamless page loading, lag free websites is my priority"
-          }
+          description={"Smooth and seamless page loading, lag free websites is my priority"}
         />
         <Bullet
           img={SpeedoPic}
           title={"Dynamic"}
-          description={
-            "Dynamic websites promote a positive browsing experience and make people come back again."
-          }
+          description={"Dynamic websites promote a positive browsing experience and make people come back again."}
         />
       </div>
       <h1 className={`${styles.skillsSectionName} text-center`}>Skills</h1>

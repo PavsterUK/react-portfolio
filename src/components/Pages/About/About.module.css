@@ -1,3 +1,7 @@
+.about {
+  padding-bottom: 5em;
+}
+
 .bulletsWrapper,
 .skillsWrapper {
   display: grid;
